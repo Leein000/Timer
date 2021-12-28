@@ -1,0 +1,4 @@
+name: Timer
+version: '${project.version}'
+main: book.timer.Timer
+api-version: 1.17
