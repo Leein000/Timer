@@ -25,7 +25,7 @@ public class Timer extends JavaPlugin {
 
                     double progress = 0;
                     double timeLeft = addedTime + time * 100 - System.currentTimeMillis() / 10;
-                    progress = timeLeft / time;
+                    progress = timeLeft / time * 100;
 
                     if(timeLeft < 0) {
                         bossbar.setVisible(false);
